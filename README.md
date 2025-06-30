@@ -62,28 +62,27 @@ Provides administrators with tools to manage users, monitor listings, and addres
 Enables users to search for listings based on location, price range, amenities, or rating. This feature improves the user experience by making property discovery seamless.
 
 API Security:
- Authentication & Authorization
+ 1. Authentication & Authorization
 What it is: Uses JWT (JSON Web Tokens) or session-based auth to verify user identity and restrict access to user-specific content or actions.
-
 Why it matters: Prevents unauthorized access and protects sensitive user data.
 
-1. Password Hashing
+2. Password Hashing
 What it is: Passwords are hashed using strong algorithms like bcrypt before being stored.
 Why it matters: Even if the database is compromised, plaintext passwords remain unrecoverable.
 
-2. Role-Based Access Control (RBAC)
+3. Role-Based Access Control (RBAC)
 What it is: Users are assigned roles (guest, host, admin) that determine what actions they can take on the platform.
 Why it matters: Prevents guests from accessing host-only or admin-only features, ensuring data and action integrity.
 
-3. Rate Limiting & Brute Force Protection
+4. Rate Limiting & Brute Force Protection
 What it is: Limits the number of login attempts or API requests in a time frame.
 Why it matters: Protects against automated attacks such as brute force login attempts and denial-of-service attacks.
 
-4. Secure Payment Handling
+5. Secure Payment Handling
 What it is: Ensures that payment information is processed via secure and compliant gateways (e.g., Stripe, PayPal).
 Why it matters: Protects financial data and maintains user trust in the platform.
 
- 5. Data Validation & Sanitization
+6. Data Validation & Sanitization
 What it is: All user input is validated and sanitized before being processed or stored.
 Why it matters: Protects against injection attacks (e.g., SQL injection, XSS).
 
