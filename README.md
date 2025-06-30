@@ -14,6 +14,8 @@ Team Roles:
 7. Quality assurance (QA) engineer: Makes sure an application performs according to requirements & Spots functional and non-functional defects
 8. Test automation engineer: Designs a test automation ecosystem & Writes and maintains test scripts for automated testing
 9. DevOps engineer: Facilitates cooperation between development and operations teams & Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
+
+    
    
 Technology Stack: 
 Django:	A Python-based web framework used for building robust backend systems, APIs, and server-side business logic.
@@ -30,6 +32,7 @@ GitHub Actions:	A CI/CD tool integrated into GitHub that automates testing, buil
 
 Markdown:	Used to format README.md and documentation files for better readability and structure in GitHub repositories.
 
+
 Database Design:
 1. A review is written by one user & A review is for one property.
 2. A user can own many properties (if a host) & A user can make many bookings (if a guest) & A user can write many reviews.
@@ -37,6 +40,7 @@ Database Design:
 4. A booking belongs to one user (guest) & A booking is allocated to one property.
 5. A review is written by one user & One review is for one property.
 6. A payment is linked to one booking.
+   
 
 Entity Relationship Summary:
 - A User can list many Properties and make many Bookings.
@@ -44,6 +48,7 @@ Entity Relationship Summary:
 - A Booking results in a Payment and can receive a Review.
 - Payments are tied to Bookings.
 - Reviews link Users and Properties for feedback.
+
 
 Feature Breakdown:
 1. User Management
@@ -66,6 +71,7 @@ Provides administrators with tools to manage users, monitor listings, and addres
 
 7. Search & Filtering
 Enables users to search for listings based on location, price range, amenities, or rating. This feature improves the user experience by making property discovery seamless.
+
 
 API Security:
  1. Authentication & Authorization
