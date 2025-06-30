@@ -17,11 +17,17 @@ Team Roles:
    
 Technology Stack: 
 Django:	A Python-based web framework used for building robust backend systems, APIs, and server-side business logic.
+
 MySQL:	A relational database management system used for storing structured data like user profiles, bookings, etc.
+
 GraphQL:	A query language for APIs that allows clients to request specific data, improving efficiency and flexibility.
+
 Docker:	A containerization platform used to package and deploy the application in isolated environments.
+
 GitHub:	A platform for version control and collaborative development, including code hosting and issue tracking.
+
 GitHub Actions:	A CI/CD tool integrated into GitHub that automates testing, builds, and deployments.
+
 Markdown:	Used to format README.md and documentation files for better readability and structure in GitHub repositories.
 
 Database Design:
