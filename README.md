@@ -101,24 +101,25 @@ Why it matters: Protects against injection attacks (e.g., SQL injection, XSS).
 CI/CD Pipelines
 CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. These pipelines automate the process of testing, building, and deploying code. Whenever developers push changes to the repository, the pipeline ensures the new code is integrated, tested, and deployed without manual intervention.
 
+
  Why CI/CD is Important:
-Faster Development Cycles: Automates builds and tests so features can be delivered faster.
+- Faster Development Cycles: Automates builds and tests so features can be delivered faster.
 
-Improved Code Quality: Automated testing helps catch bugs early before they reach production.
+- Improved Code Quality: Automated testing helps catch bugs early before they reach production.
 
-Consistency & Reliability: Reduces human error in the deployment process.
+- Consistency & Reliability: Reduces human error in the deployment process.
 
-Scalability: Easily accommodates changes and team collaboration on large codebases.
+- Scalability: Easily accommodates changes and team collaboration on large codebases.
 
  Common Tools Used:
-GitHub Actions – Automates workflows for testing and deployment directly from your GitHub repository.
+    GitHub Actions – Automates workflows for testing and deployment directly from your GitHub repository.
 
-Docker – Packages applications in lightweight containers, ensuring consistency across development and production environments.
+    Docker – Packages applications in lightweight containers, ensuring consistency across development and production environments.
 
-Heroku / Netlify / Vercel – For simple deployment and hosting.
+    Heroku / Netlify / Vercel – For simple deployment and hosting.
 
-Jenkins / Travis CI – Popular CI/CD servers for more advanced custom workflows.
+    Jenkins / Travis CI – Popular CI/CD servers for more advanced custom workflows.
 
-By implementing CI/CD, this project becomes easier to maintain, scale, and deploy with confidence.
+    By implementing CI/CD, this project becomes easier to maintain, scale, and deploy with confidence.
 
 
